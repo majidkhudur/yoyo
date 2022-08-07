@@ -1,0 +1,31 @@
+body{
+
+}
+
+.design{ display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(5,200px);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+
+}
+.box{
+    background-color: red;
+    text-align: center;
+
+}
+.box4{
+    display: grid;
+grid-template-columns: repeat(2,1fr);
+
+grid-column-gap: 2px;
+grid-row-gap: 2px;
+   
+}
+p{
+    background-color: rgb(0, 166, 255);
+    text-align: center;
+}
+.box6{
+    border-radius: 60%;
+}
